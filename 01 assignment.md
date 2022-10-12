@@ -301,13 +301,64 @@ print(a)
 ```
 [Title](link)
 
-[NAVER](https://www.naver.com/)
+[NAVER](https://www.naver.com)
 ```
 
 > **적용 예시**
 ___
 
-[NAVER](https://www.naver.com/)
+[NAVER](https://www.naver.com)
 
 - **자동 링크 사용**
 
+```
+일반적인 URL 또는 이메일 주소
+
+<link>
+
+<https://www.naver.com>    
+<seohyuniiii@example.com>
+```
+
+> **적용 예시**
+___
+
+<https://www.naver.com>    
+<seohyuniiii@example.com>
+
+- **참조 링크 사용**
+
+```
+[link keyword][id]
+(한줄 띄어쓰기)
+[id]: URL "설명 문구 (생략가능)"
+
+링크를 [NAVER][naver link] 클릭하세요
+
+[naver link]: https://www.naver.com "네이버"
+```
+ 
+> **적용 예시**
+___
+
+링크를 [NAVER][naverlink] 클릭하세요
+
+[naverlink]: https://www.naver.com "네이버"
+
+### 2.9 이미지
+
+```
+![이미지 설명](이미지가 위치한 경로 또는 링크 "설명 문구 (생략가능)")
+
+![Google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
+```
+
+> **적용 예시**
+___
+
+![Google](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
+
+## 3. 참고
+- <https://www.markdownguide.org>
+- <https://gist.github.com/ihoneymon/652be052a0727ad59601>
+- <https://thisblogbusy.tistory.com/entry/>
