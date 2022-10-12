@@ -361,4 +361,4 @@ ___
 ## 3. 참고
 - <https://www.markdownguide.org>
 - <https://gist.github.com/ihoneymon/652be052a0727ad59601>
-- <https://thisblogbusy.tistory.com>
+- [https://thisblogbusy.tistory.com](https://thisblogbusy.tistory.com/entry/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4Markdown-%EC%9D%B4%EB%9E%80)
